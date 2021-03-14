@@ -12,6 +12,8 @@
     font-style: normal;
 }
 
+
+
 * {
     margin: 0;
     padding: 0;
@@ -39,7 +41,7 @@ body {
     letter-spacing: 2px;
     font-size: 14px;
     /* font-family: 'RocknRoll One', sans-serif; */
-    font-family: "Redrock";
+    font-family: "IamRock";
     position: relative;
     background-image: url("./Img/PROSPEKT-background-copy.png");
     max-width: 100%;
@@ -49,6 +51,7 @@ body {
     background-size: cover;
     background-color: black;
 }
+
 
 header {
     max-width: 100%;
@@ -115,13 +118,16 @@ footer a:hover {
 }
 
 /* INIZIO SLIDER */
-#main-box{
+
+#main-box {
     width: 100%;
     /* background-color: black; */
     background-color: rgba(0, 0, 0, 0.9);
 }
+
 main {
     font-family: "IamRock";
+    text-transform: uppercase;
     /* position: relative; */
     font-size: 0;
     margin: 0 auto;
@@ -204,7 +210,7 @@ main .slider-dots {
     letter-spacing: 2px;
     justify-content: center;
     /* text-transform: uppercase; */
-    font-size: 0.8rem;
+    font-size: 0.6rem;
     display: flex;
     width: 100%;
     position: absolute;
@@ -255,7 +261,7 @@ main .slider-arrows label::after {
 }
 
 #slider1:checked~.container .slider-dots [for="slider1"], #slider2:checked~.container .slider-dots [for="slider2"], #slider3:checked~.container .slider-dots [for="slider3"] {
-    text-shadow: brown 0 0 5px;
+    text-shadow: white 0 0 10px;
     /* color: white; */
     /* background-color: white; */
     border-bottom: white solid 2px;
