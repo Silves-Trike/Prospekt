@@ -41,7 +41,7 @@ body {
     /* font-family: 'RocknRoll One', sans-serif; */
     font-family: "Redrock";
     position: relative;
-    background-image: url("img/PROSPEKT-background-copy.png");
+    background-image: url("./Img/PROSPEKT-background-copy.png");
     max-width: 100%;
     height: 100vh;
     background-position: right;
@@ -242,12 +242,12 @@ main .slider-arrows label:hover::before, main .slider-arrows label:hover::after 
 
 main .slider-arrows label::before {
     left: 8px;
-    background-image: url("img/Chevron\ Left-595b40b75ba036ed117d58b2.svg");
+    background-image: url("./Img/Chevron\ Left-595b40b75ba036ed117d58b2.svg");
 }
 
 main .slider-arrows label::after {
     right: 8px;
-    background-image: url("Img/Chevron\ Right-595b40b85ba036ed117dcc3d.svg");
+    background-image: url("./Img/Chevron\ Right-595b40b85ba036ed117dcc3d.svg");
 }
 
 #slider1:checked~.container .slider-dots [for="slider1"], #slider2:checked~.container .slider-dots [for="slider2"], #slider3:checked~.container .slider-dots [for="slider3"] {
