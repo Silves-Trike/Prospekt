@@ -571,12 +571,12 @@ main .slider-arrows label::after {
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    animation: 0.8s swap 1s forwards;
+    animation: 0.8s swap 2s forwards;
 }
 
 .cubo {
     opacity: 0;
-    animation: 2s ease 0s 1 me-is-awesome;
+    animation: 2s ease 1s 1 me-is-awesome;
     border: white 3px solid;
     display: flex;
     align-items: center;
