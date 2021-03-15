@@ -262,6 +262,9 @@ main .slider-dots label {
     font-weight: bold;
     position: relative;
 }
+main .slider-dots label:hover{
+    color: brown;
+}
 
 main .slider-dots label::after {
     content: "";
