@@ -12,13 +12,13 @@
 </head>
 
 <body>
-    <aside id="animation">
+    <!-- <aside id="animation">
         <div class="cubo cubo-1">
             <div class="cubo cubo-2">
                 <div class="cubo cubo-3"></div>
             </div>
         </div>
-    </aside>
+    </aside> -->
     <div id="main-box">
         <header>
             <div id="title-logo">
@@ -39,13 +39,45 @@
                         </li>
                         <li id="songs">
                             <div class="slider-slide-container">
-                                <div id="iframe-wrapper">
-                                    <iframe width="100%" scrolling="no" frameborder="no" allow="autoplay"
-                                        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/944896846&color=%23323425&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+                                <div class="song-wrapper">
+                                    <div class="player">
+                                        <div class="play-buttons">
+                                            <button><i class="fas fa-play"></i></button>
+                                            <button><i class="fas fa-pause"></i></button>
+                                        </div>
+                                        <p class="song-title">Parco Kennedy</p>
+                                        <div class="range-input">
+                                            <input type="range" name="playback" id="playback" min="0" max="100">
+                                            <i class="fas fa-volume-up"></i>
+                                            <input type="range" name="volume" id="volume" min="0" max="100">
+                                        </div>
+                                    </div>
                                 </div>
+                                <div class="song-wrapper">
+                                    <div class="player">
+                                        <div class="play-buttons">
+                                            <button><i class="fas fa-play"></i></button>
+                                            <button><i class="fas fa-pause"></i></button>
+                                        </div>
+                                        <p class="song-title">Composizione-1</p>
+                                        <div class="range-input">
+                                            <input type="range" name="playback" id="playback" min="0" max="100">
+                                            <i class="fas fa-volume-up"></i>
+                                            <input type="range" name="volume" id="volume" min="0" max="100">
+                                        </div>
+                                    </div>
+                                </div>
+                                <p>Parco Kennedy</p>
+                                <audio controls src="./songs/Prospэkt - Parco Kennedy.mp3">
+                                    Your browser does not support the
+                                    <code>audio</code> element.
+                                </audio>
+                                <p>Composizione-1</p>
+                                <audio controls src="./songs/Prospэkt- Composizione I.mp3">
+                                    Your browser does not support the
+                                    <code>audio</code> element.
+                                </audio>
                             </div>
-                            <h2>Parco Kennedy
-                            </h2>
                         </li>
                         <li><img src="#" alt="">
                             <h2>BABUI</h2>
